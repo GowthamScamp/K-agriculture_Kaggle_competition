@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Kaggriculture agent research
 
 An archived, reproducible research codebase for the Kaggle
@@ -43,7 +42,7 @@ completed.
 - `kaggle-environments==1.32.7` for local simulation
 
 ```powershell
-git clone <your-github-url>
+git clone "https://github.com/GowthamScamp/K-agriculture_Kaggle_competition.git"
 cd K_argiculture_kaggle_one
 
 py -3.12 -m venv .venv
@@ -186,12 +185,3 @@ modifying, or redistributing any of those artifacts.
 No Kaggle credentials, public replay files, or private data are included. The
 ignore rules cover virtual environments, local logs, cache directories, and
 common credential files.
-
-## Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md). In particular, preserve
-attribution, keep submissions standard-library-only, and do not describe an
-unvalidated local result as a live rating improvement.
-=======
-# K-agriculture_Kaggle_competition
->>>>>>> f8c9392d9f87fe6ec00d2a560b38e887a9d2f7fb
