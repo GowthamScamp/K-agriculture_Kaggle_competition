@@ -1,0 +1,5 @@
+# Development only. The submitted agent needs nothing beyond the standard
+# library; it imports kaggle_environments lazily and degrades gracefully if
+# that import fails, so offline execution is never at risk.
+kaggle-environments==1.32.7
+pytest>=8.0

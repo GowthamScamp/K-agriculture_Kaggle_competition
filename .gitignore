@@ -1,0 +1,43 @@
+# Python environments, bytecode, and test tooling
+.venv/
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Local run output and transient working directories
+logs/
+.tmp/
+data/replays/
+*.jsonl
+
+# Credentials and local configuration. Commit a documented example file only.
+.env
+.env.*
+!.env.example
+.kaggle/
+kaggle.json
+*.pem
+*.key
+*.p12
+
+# Locally downloaded public-agent cache. It is reproducible with the fetch
+# tooling but is not part of this repository's source distribution.
+benchmarks/public/*
+!benchmarks/public/tetsutani_dp/
+!benchmarks/public/tetsutani_dp/main.py
+
+# Generated experimental variants and local controls. The two checked-in
+# submission artifacts are the only release-ready files in submission/.
+submission/candidates/
+submission/controls/
+submission/heuristic/
+submission/manifest.json
+
+# Original private planning prompt; public project guidance lives in README.md.
+task.md

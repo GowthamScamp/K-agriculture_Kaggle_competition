@@ -1,0 +1,12 @@
+# Keep source and documentation portable across Windows, Linux, and Kaggle.
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+
+# Generated submission archives are binary release artifacts.
+*.zip binary
+*.tar.gz binary
+*.so binary
