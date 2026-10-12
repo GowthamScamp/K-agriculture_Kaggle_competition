@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Kaggriculture agent research
 
 An archived, reproducible research codebase for the Kaggle
@@ -191,3 +192,6 @@ common credential files.
 Please read [CONTRIBUTING.md](CONTRIBUTING.md). In particular, preserve
 attribution, keep submissions standard-library-only, and do not describe an
 unvalidated local result as a live rating improvement.
+=======
+# K-agriculture_Kaggle_competition
+>>>>>>> f8c9392d9f87fe6ec00d2a560b38e887a9d2f7fb
